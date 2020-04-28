@@ -1,0 +1,57 @@
+.login {
+  background-color: #535353;
+  min-height: 100vh;
+  padding: 5%;
+  &__form {
+    min-width: 25em;
+    max-width: 25em;
+    &-title {
+      width: 90%;
+      background: $primary;
+      padding: 15px;
+      margin: -20px auto 0;
+      border-radius: 3px;
+      color: white;
+      text-align: center;
+      font-size: 18px;
+      box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+        0 7px 10px -5px rgba(233, 30, 99, 0.4);
+    }
+    &-submit {
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
+      text-transform: uppercase;
+    }
+    &-loader {
+      color: $primary;
+      margin-left: auto;
+      margin-right: auto;
+      display: table;
+    }
+  }
+  &__header {
+    font-size: 1.3rem;
+  }
+  &__footer {
+    font-size: 0.9rem;
+    text-align: right;
+  }
+  &__header,
+  &__footer {
+    color: white;
+    width: 100%;
+  }
+}
+
+.form-group {
+  margin-bottom: 1em;
+  display: block;
+}
+
+.expired-text {
+  margin: 1em 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
